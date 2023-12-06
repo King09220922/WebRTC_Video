@@ -60,12 +60,32 @@
       "dependencies": {},
       "url": "https://packages.unity.cn"
     },
+    "com.unity.inputsystem": {
+      "version": "1.6.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.cn"
+    },
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.cn"
+    },
+    "com.unity.renderstreaming": {
+      "version": "file:D:/Unity Projects/UnityRenderStreaming/com.unity.renderstreaming",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.webrtc": "3.0.0-pre.7",
+        "com.unity.inputsystem": "1.5.1",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.screencapture": "1.0.0"
+      }
     },
     "com.unity.settings-manager": {
       "version": "2.0.1",
@@ -158,6 +178,17 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.cn"
+    },
+    "com.unity.webrtc": {
+      "version": "3.0.0-pre.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.modules.audio": "1.0.0"
       },
       "url": "https://packages.unity.cn"
     },
